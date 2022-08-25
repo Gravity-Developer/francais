@@ -1,0 +1,36 @@
+.main {
+    min-height: 100vh;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Hide scrollbars */
+}
+
+
+.navbar {
+    min-height: 7vh;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.background {
+    min-height: 93vh;
+    flex: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.div {
+    flex-direction: column;
+    flex: 1;
+    display: flex;
+    background: url("https://t3.ftcdn.net/jpg/00/41/94/02/360_F_41940248_NCRNah6ISoHgXXmBEe4heQ0UPXXd1onE.jpg") no-repeat center; 
+    background-size: cover;
+}
